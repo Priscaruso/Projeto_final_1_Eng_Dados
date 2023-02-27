@@ -1,2 +1,2 @@
-# Projeto_final_1_Eng_Dados
+# PROJETO FINAL 1 - FORMAÇÃO ENGENHEIRO DE DADOS - UDEMY
 Building a Data Warehouse using Amazon Redshift
