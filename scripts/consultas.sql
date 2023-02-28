@@ -171,7 +171,7 @@ WHERE rank_total_sales <= 5;
 
 
 
-# outra forma de fazer usando window function
+# outra forma de fazer usando window function com rankeamento
 WITH categories_sales AS (
     SELECT
         EXTRACT(year FROM o.order_date) AS date_year,
