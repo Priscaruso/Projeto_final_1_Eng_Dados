@@ -2,8 +2,8 @@
 SELECT 
     order_id, 
     product_name,
-    od.unit_price AS order_price, 
     p.unit_price AS product_price, 
+    od.unit_price AS order_price, 
     (p.unit_price - od.unit_price) AS price_diff,
     quantity, 
     discount
